@@ -8,6 +8,7 @@ class BasicCache(BaseCaching):
     """Represents an object that allows storing and
     retrieving items from a dictionary.
     """
+
     def put(self, key, item):
         """Adds an item in the cache.
         """

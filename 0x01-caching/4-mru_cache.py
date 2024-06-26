@@ -10,6 +10,7 @@ class MRUCache(BaseCaching):
     """Object that allows storing and
     retrieving items from a dictionary with an MRU
     """
+
     def __init__(self):
         """Initializes the cache.
         """

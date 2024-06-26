@@ -10,6 +10,7 @@ class FIFOCache(BaseCaching):
     """object that allows storing and
     retrieving items from a dictionary with a FIFO
     """
+
     def __init__(self):
         """Initializes the cache.
         """

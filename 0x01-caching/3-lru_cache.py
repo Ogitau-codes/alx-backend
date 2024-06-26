@@ -10,6 +10,7 @@ class LRUCache(BaseCaching):
     """Object that allows storing and
     retrieving items from a dictionary with a LRU
     """
+
     def __init__(self):
         """Initializes the cache.
         """

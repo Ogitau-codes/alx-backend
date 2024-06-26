@@ -10,6 +10,7 @@ class LFUCache(BaseCaching):
     """Object that allows storing and
     retrieving items from a dictionary with a LFU
     """
+
     def __init__(self):
         """Initializes the cache.
         """
